@@ -1,370 +1,350 @@
 <!DOCTYPE html>
 <html lang="ua">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../CSS/main.css" />
-    <link rel="stylesheet" href="../CSS/offstyle.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-    rel="shortcut icon"
-    href="../IMAGES/icon/Favicon.png"
-    type="image/x-icon"
-  />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/main.css" />
+  <link rel="stylesheet" href="../CSS/offstyle.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="../IMAGES/icon/Favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="../CSS/media.css" />
-    <title>Документ</title>
-  </head>
-  <body>
-    <header>
-      <div class="header-container">
-        <div class="logo">
-          <a href="./Main.html"><h1>PC World</h1></a>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#products">Продукти</a></li>
-            <li><a href="#about">Про нас</a></li>
-            <li><a href="#contact">Контакти</a></li>
-            <li><a href="./FAQ.html">FAQ</a></li>
-          </ul>
-        </nav>
-        <div id="btncall">
-          <span class="phone-number">+1 234 567 890</span>
-          <button class="call-button">Зателефонувати</button>
-        </div>
-      </div>
-    </header>
+  <title>Документ</title>
+</head>
 
-    <section id="products">
-      <h2>Наші продукти</h2>
-      <div class="container">
-        <div
-          class="product"
-          data-specs="Процесор: Intel Core i9; Відеокарта: NVIDIA RTX 3080; Оперативна пам'ять: 32GB; Накопичувач: 1TB SSD"
-        >
-          <img src="../IMAGES/img/pc1.png" alt="Gaming PC" />
-          <h3>Predator X</h3>
-          <p>Високопродуктивний ігровий комп'ютер для найкращого досвіду.</p>
-          <p><strong>Ціна:</strong> 54,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div
-          class="product"
-          data-specs="Процесор: AMD Ryzen 9; Відеокарта: NVIDIA RTX 3070; Оперативна пам'ять: 16GB; Накопичувач: 1TB SSD"
-        >
-          <img src="../IMAGES/img/pc2.jpg" alt="Workstation" />
-          <h3>Creator Pro</h3>
-          <p>Потужна робоча станція для професіоналів і творців.</p>
-          <p><strong>Ціна:</strong> 69,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div
-          class="product"
-          data-specs="Процесор: Intel Core i5; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 512GB SSD"
-        >
-          <img src="../IMAGES/img/pc3.jpg" alt="Everyday PC" />
-          <h3>Everyday Companion</h3>
-          <p>Надійний і доступний комп'ютер для щоденного використання.</p>
-          <p><strong>Ціна:</strong> 29,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div
-          class="product"
-          data-specs="Процесор: Intel Core i7; Відеокарта: NVIDIA GTX 1660; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD"
-        >
-          <img src="../IMAGES/img/pc4.jpg" alt="Everyday PC" />
-          <h3>Office Master</h3>
-          <p>Ідеальний ПК для офісних завдань і продуктивності.</p>
-          <p><strong>Ціна:</strong> 33,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div
-          class="product"
-          data-specs="Процесор: Intel Core i3; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 256GB SSD"
-        >
-          <img src="../IMAGES/img/pc5.png" alt="Everyday PC" />
-          <h3>Student Essential</h3>
-          <p>Доступний ПК, створений для студентів і навчання.</p>
-          <p><strong>Ціна:</strong> 26,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div
-          class="product"
-          data-specs="Процесор: AMD Ryzen 7; Відеокарта: NVIDIA RTX 3060; Оперативна пам'ять: 16GB; Накопичувач: 1TB SSD"
-        >
-          <img src="../IMAGES/img/pc6.png" alt="Everyday PC" />
-          <h3>PowerEdge</h3>
-          <p>
-            Високопродуктивний ПК для багатозадачності та важких навантажень.
-          </p>
-          <p><strong>Ціна:</strong> 49,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div
-          class="product"
-          data-specs="Процесор: Intel Core i9; Відеокарта: NVIDIA RTX 3090; Оперативна пам'ять: 64GB; Накопичувач: 2TB SSD"
-        >
-          <img src="../IMAGES/img/pc7.png" alt="Everyday PC" />
-          <h3>Gaming Beast</h3>
-          <p>Найкращий ігровий ПК з топовими характеристиками.</p>
-          <p><strong>Ціна:</strong> 84,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div
-          class="product"
-          data-specs="Процесор: Intel Core i5; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 256GB SSD"
-        >
-          <img src="../IMAGES/img/pc8.jpg" alt="Everyday PC" />
-          <h3>Compact Pro</h3>
-          <p>Компактний і потужний ПК для невеликих приміщень.</p>
-          <p><strong>Ціна:</strong> 38,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div
-          class="product"
-          data-specs="Процесор: Intel Core i7; Відеокарта: NVIDIA GTX 1650; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD"
-        >
-          <img src="../IMAGES/img/pc9.jpg" alt="Everyday PC" />
-          <h3>Ultra Slim</h3>
-          <p>Стильний і тонкий ПК для сучасних користувачів.</p>
-          <p><strong>Ціна:</strong> 42,999 ₴</p>
-          <button>Купити</button>
-        </div>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="./Main.html">
+          <h1>PC World</h1>
+        </a>
       </div>
-    </section>
+      <nav>
+        <ul>
+          <li><a href="#products">Продукти</a></li>
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#contact">Контакти</a></li>
+          <li><a href="./FAQ.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <div id="btncall">
+        <span class="phone-number">+1 234 567 890</span>
+        <button class="call-button">Зателефонувати</button>
+      </div>
+    </div>
+  </header>
 
-    <section id="products">
-      <div class="container">
-        <div class="product" data-specs="Процесор: Intel Core i7; Відеокарта: NVIDIA RTX 3060; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD">
-          <img src="../IMAGES/img/nt1.jpg" alt="Gaming Laptop" />
-          <h3>Gaming Titan</h3>
-          <p>Високопродуктивний ігровий ноутбук для найкращого досвіду.</p>
-          <p><strong>Ціна:</strong> 73,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div class="product" data-specs="Процесор: AMD Ryzen 7; Відеокарта: NVIDIA RTX 3050; Оперативна пам'ять: 16GB; Накопичувач: 1TB SSD">
-          <img src="../IMAGES/img/nt2.jpg" alt="Workstation Laptop" />
-          <h3>Creator Studio</h3>
-          <p>Потужний ноутбук для професіоналів і творців.</p>
-          <p><strong>Ціна:</strong> 84,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div class="product" data-specs="Процесор: Intel Core i3; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 256GB SSD">
-          <img src="../IMAGES/img/nt3.png" alt="Everyday Laptop" />
-          <h3>Everyday Notebook</h3>
-          <p>Надійний і доступний ноутбук для щоденного використання.</p>
-          <p><strong>Ціна:</strong> 33,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div class="product" data-specs="Процесор: Intel Core i5; Відеокарта: NVIDIA MX450; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD">
-          <img src="../IMAGES/img/nt4.jpg" alt="Business Laptop" />
-          <h3>Office Pro</h3>
-          <p>Ідеальний ноутбук для офісних завдань і продуктивності.</p>
-          <p><strong>Ціна:</strong> 45,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div class="product" data-specs="Процесор: Intel Core i3; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 256GB SSD">
-          <img src="../IMAGES/img/nt5.jpg" alt="Student Laptop" />
-          <h3>Student Companion</h3>
-          <p>Доступний ноутбук, створений для студентів і навчання.</p>
-          <p><strong>Ціна:</strong> 29,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div class="product" data-specs="Процесор: Intel Core i7; Відеокарта: NVIDIA GTX 1650; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD">
-          <img src="../IMAGES/img/nt6.jpg" alt="Ultrabook" />
-          <h3>UltraBook X</h3>
-          <p>Стильний і легкий ноутбук для сучасних користувачів.</p>
-          <p><strong>Ціна:</strong> 54,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div class="product" data-specs="Процесор: Intel Core i9; Відеокарта: NVIDIA RTX 3080; Оперативна пам'ять: 32GB; Накопичувач: 1TB SSD">
-          <img src="../IMAGES/img/nt7.jpg" alt="Gaming Laptop" />
-          <h3>Portable Beast</h3>
-          <p>Найкращий ігровий ноутбук з топовими характеристиками.</p>
-          <p><strong>Ціна:</strong> 91,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div class="product" data-specs="Процесор: Intel Core i5; Відеокарта: Intel Iris Xe; Оперативна пам'ять: 8GB; Накопичувач: 512GB SSD">
-          <img src="../IMAGES/img/nt8.png" alt="Compact Laptop" />
-          <h3>Compact Edge</h3>
-          <p>Компактний і потужний ноутбук для невеликих приміщень.</p>
-          <p><strong>Ціна:</strong> 47,999 ₴</p>
-          <button>Купити</button>
-        </div>
+  <section id="products">
+    <h2>Наші продукти</h2>
+    <div class="container">
+      <div class="product"
+        data-specs="Процесор: Intel Core i9; Відеокарта: NVIDIA RTX 3080; Оперативна пам'ять: 32GB; Накопичувач: 1TB SSD">
+        <img src="../IMAGES/img/pc1.png" alt="Gaming PC" />
+        <h3>Predator X</h3>
+        <p>Високопродуктивний ігровий комп'ютер для найкращого досвіду.</p>
+        <p><strong>Ціна:</strong> 54,999 ₴</p>
+        <button>Купити</button>
       </div>
-    </section>
+      <div class="product"
+        data-specs="Процесор: AMD Ryzen 9; Відеокарта: NVIDIA RTX 3070; Оперативна пам'ять: 16GB; Накопичувач: 1TB SSD">
+        <img src="../IMAGES/img/pc2.jpg" alt="Workstation" />
+        <h3>Creator Pro</h3>
+        <p>Потужна робоча станція для професіоналів і творців.</p>
+        <p><strong>Ціна:</strong> 69,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i5; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 512GB SSD">
+        <img src="../IMAGES/img/pc3.jpg" alt="Everyday PC" />
+        <h3>Everyday Companion</h3>
+        <p>Надійний і доступний комп'ютер для щоденного використання.</p>
+        <p><strong>Ціна:</strong> 29,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i7; Відеокарта: NVIDIA GTX 1660; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD">
+        <img src="../IMAGES/img/pc4.jpg" alt="Everyday PC" />
+        <h3>Office Master</h3>
+        <p>Ідеальний ПК для офісних завдань і продуктивності.</p>
+        <p><strong>Ціна:</strong> 33,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i3; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 256GB SSD">
+        <img src="../IMAGES/img/pc5.png" alt="Everyday PC" />
+        <h3>Student Essential</h3>
+        <p>Доступний ПК, створений для студентів і навчання.</p>
+        <p><strong>Ціна:</strong> 26,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: AMD Ryzen 7; Відеокарта: NVIDIA RTX 3060; Оперативна пам'ять: 16GB; Накопичувач: 1TB SSD">
+        <img src="../IMAGES/img/pc6.png" alt="Everyday PC" />
+        <h3>PowerEdge</h3>
+        <p>
+          Високопродуктивний ПК для багатозадачності та важких навантажень.
+        </p>
+        <p><strong>Ціна:</strong> 49,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i9; Відеокарта: NVIDIA RTX 3090; Оперативна пам'ять: 64GB; Накопичувач: 2TB SSD">
+        <img src="../IMAGES/img/pc7.png" alt="Everyday PC" />
+        <h3>Gaming Beast</h3>
+        <p>Найкращий ігровий ПК з топовими характеристиками.</p>
+        <p><strong>Ціна:</strong> 84,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i5; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 256GB SSD">
+        <img src="../IMAGES/img/pc8.jpg" alt="Everyday PC" />
+        <h3>Compact Pro</h3>
+        <p>Компактний і потужний ПК для невеликих приміщень.</p>
+        <p><strong>Ціна:</strong> 38,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i7; Відеокарта: NVIDIA GTX 1650; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD">
+        <img src="../IMAGES/img/pc9.jpg" alt="Everyday PC" />
+        <h3>Ultra Slim</h3>
+        <p>Стильний і тонкий ПК для сучасних користувачів.</p>
+        <p><strong>Ціна:</strong> 42,999 ₴</p>
+        <button>Купити</button>
+      </div>
+    </div>
+  </section>
 
-    <section id="products">
-      <div class="container">
-        <div class="product" data-specs="Дисплей: OLED 7 дюймів; Пам'ять: 1TB; Процесор: AMD Zen 2; Графіка: RDNA 2">
-          <img src="../IMAGES/img/cn1.jpg" alt="Valve Steam Deck OLED 1TB" />
-          <h3>Valve Steam Deck</h3>
-          <p>Портативна ігрова консоль з приголомшливим OLED-дисплеєм.</p>
-          <p><strong>Ціна:</strong> 44,499 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div class="product" data-specs="Дисплей: IPS 6.5 дюймів; Пам'ять: 512GB; Процесор: Qualcomm Snapdragon; Графіка: Adreno 650">
-          <img src="../IMAGES/img/cn2.png" alt="MSI Claw AIM-3 Black" />
-          <h3>MSI Claw AIM-3 Black</h3>
-          <p>Високопродуктивна портативна ігрова консоль для захоплюючого геймплею.</p>
-          <p><strong>Ціна:</strong> 32,999 ₴</p>
-          <button>Купити</button>
-        </div>
-        <div class="product" data-specs="Дисплей: IPS 8.8 дюймів; Пам'ять: 512GB; Процесор: AMD Ryzen Z1 Extreme; Графіка: RDNA 3">
-          <img src="../IMAGES/img/cn3.jpg" alt="Lenovo Legion Go 8APU1 512GB" />
-          <h3>Lenovo Legion Go</h3>
-          <p>Портативна ігрова консоль Shadow Black з 512GB пам'яті.</p>
-          <p><strong>Ціна:</strong> 32,999 ₴</p>
-          <button>Купити</button>
-        </div>
+  <section id="products">
+    <div class="container">
+      <div class="product"
+        data-specs="Процесор: Intel Core i7; Відеокарта: NVIDIA RTX 3060; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD">
+        <img src="../IMAGES/img/nt1.jpg" alt="Gaming Laptop" />
+        <h3>Gaming Titan</h3>
+        <p>Високопродуктивний ігровий ноутбук для найкращого досвіду.</p>
+        <p><strong>Ціна:</strong> 73,999 ₴</p>
+        <button>Купити</button>
       </div>
-    </section>
+      <div class="product"
+        data-specs="Процесор: AMD Ryzen 7; Відеокарта: NVIDIA RTX 3050; Оперативна пам'ять: 16GB; Накопичувач: 1TB SSD">
+        <img src="../IMAGES/img/nt2.jpg" alt="Workstation Laptop" />
+        <h3>Creator Studio</h3>
+        <p>Потужний ноутбук для професіоналів і творців.</p>
+        <p><strong>Ціна:</strong> 84,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i3; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 256GB SSD">
+        <img src="../IMAGES/img/nt3.png" alt="Everyday Laptop" />
+        <h3>Everyday Notebook</h3>
+        <p>Надійний і доступний ноутбук для щоденного використання.</p>
+        <p><strong>Ціна:</strong> 33,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i5; Відеокарта: NVIDIA MX450; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD">
+        <img src="../IMAGES/img/nt4.jpg" alt="Business Laptop" />
+        <h3>Office Pro</h3>
+        <p>Ідеальний ноутбук для офісних завдань і продуктивності.</p>
+        <p><strong>Ціна:</strong> 45,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i3; Відеокарта: Intel UHD Graphics; Оперативна пам'ять: 8GB; Накопичувач: 256GB SSD">
+        <img src="../IMAGES/img/nt5.jpg" alt="Student Laptop" />
+        <h3>Student Companion</h3>
+        <p>Доступний ноутбук, створений для студентів і навчання.</p>
+        <p><strong>Ціна:</strong> 29,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i7; Відеокарта: NVIDIA GTX 1650; Оперативна пам'ять: 16GB; Накопичувач: 512GB SSD">
+        <img src="../IMAGES/img/nt6.jpg" alt="Ultrabook" />
+        <h3>UltraBook X</h3>
+        <p>Стильний і легкий ноутбук для сучасних користувачів.</p>
+        <p><strong>Ціна:</strong> 54,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i9; Відеокарта: NVIDIA RTX 3080; Оперативна пам'ять: 32GB; Накопичувач: 1TB SSD">
+        <img src="../IMAGES/img/nt7.jpg" alt="Gaming Laptop" />
+        <h3>Portable Beast</h3>
+        <p>Найкращий ігровий ноутбук з топовими характеристиками.</p>
+        <p><strong>Ціна:</strong> 91,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Процесор: Intel Core i5; Відеокарта: Intel Iris Xe; Оперативна пам'ять: 8GB; Накопичувач: 512GB SSD">
+        <img src="../IMAGES/img/nt8.png" alt="Compact Laptop" />
+        <h3>Compact Edge</h3>
+        <p>Компактний і потужний ноутбук для невеликих приміщень.</p>
+        <p><strong>Ціна:</strong> 47,999 ₴</p>
+        <button>Купити</button>
+      </div>
+    </div>
+  </section>
 
-    <button id="cart-toggle" style="display: none;">🛒 Корзина</button>
-    <section id="cart" class="hidden">
-      <h2>Кошик</h2>
-      <button id="close-cart">✖</button>
-      <div class="cart-container">
-        <div class="cart-items"></div>
-        <div class="cart-summary">
-          <p>Загальна сума: <span id="total-price">0</span> ₴</p>
-          <button id="checkout-button">Оформити замовлення</button>
-        </div>
+  <section id="products">
+    <div class="container">
+      <div class="product" data-specs="Дисплей: OLED 7 дюймів; Пам'ять: 1TB; Процесор: AMD Zen 2; Графіка: RDNA 2">
+        <img src="../IMAGES/img/cn1.jpg" alt="Valve Steam Deck OLED 1TB" />
+        <h3>Valve Steam Deck</h3>
+        <p>Портативна ігрова консоль з приголомшливим OLED-дисплеєм.</p>
+        <p><strong>Ціна:</strong> 44,499 ₴</p>
+        <button>Купити</button>
       </div>
-    </section>
-    <div id="order-modal" class="modal hidden">
-      <div class="modal-content">
-        <h2>Оформлення замовлення</h2>
-        <form id="order-form">
-          <label for="fullname">ПІБ:</label>
-          <input type="text" id="fullname" name="fullname" placeholder="Ваше повне ім'я" required />
-    
-          <label for="phone">Номер телефону:</label>
-          <input type="tel" id="phone" name="phone" placeholder="+380123456789" required />
-    
-          <label for="address">Адреса доставки:</label>
-          <input type="text" id="address" name="address" placeholder="Ваша адреса" required />
-    
-          <label for="email">Електронна пошта:</label>
-          <input type="email" id="email" name="email" placeholder="example@email.com" required />
-    
-          <button type="submit">Підтвердити замовлення</button>
+      <div class="product"
+        data-specs="Дисплей: IPS 6.5 дюймів; Пам'ять: 512GB; Процесор: Qualcomm Snapdragon; Графіка: Adreno 650">
+        <img src="../IMAGES/img/cn2.png" alt="MSI Claw AIM-3 Black" />
+        <h3>MSI Claw AIM-3 Black</h3>
+        <p>Високопродуктивна портативна ігрова консоль для захоплюючого геймплею.</p>
+        <p><strong>Ціна:</strong> 32,999 ₴</p>
+        <button>Купити</button>
+      </div>
+      <div class="product"
+        data-specs="Дисплей: IPS 8.8 дюймів; Пам'ять: 512GB; Процесор: AMD Ryzen Z1 Extreme; Графіка: RDNA 3">
+        <img src="../IMAGES/img/cn3.jpg" alt="Lenovo Legion Go 8APU1 512GB" />
+        <h3>Lenovo Legion Go</h3>
+        <p>Портативна ігрова консоль Shadow Black з 512GB пам'яті.</p>
+        <p><strong>Ціна:</strong> 32,999 ₴</p>
+        <button>Купити</button>
+      </div>
+    </div>
+  </section>
+
+  <button id="cart-toggle" style="display: none;">🛒 Корзина</button>
+  <section id="cart" class="hidden">
+    <h2>Кошик</h2>
+    <button id="close-cart">✖</button>
+    <div class="cart-container">
+      <div class="cart-items"></div>
+      <div class="cart-summary">
+        <p>Загальна сума: <span id="total-price">0</span> ₴</p>
+        <button id="checkout-button">Оформити замовлення</button>
+      </div>
+    </div>
+  </section>
+  <div id="order-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Оформлення замовлення</h2>
+      <form id="order-form">
+        <label for="fullname">ПІБ:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Ваше повне ім'я" required />
+
+        <label for="phone">Номер телефону:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+380123456789" required />
+
+        <label for="address">Адреса доставки:</label>
+        <input type="text" id="address" name="address" placeholder="Ваша адреса" required />
+
+        <label for="email">Електронна пошта:</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required />
+
+        <button type="submit">Підтвердити замовлення</button>
+      </form>
+      <button id="close-order-modal">✖</button>
+    </div>
+  </div>
+  <div id="success-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Замовлення успішно оформлено!</h2>
+      <button id="close-success-modal">OK</button>
+    </div>
+  </div>
+  <section id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>Про нас</h2>
+        <p>
+          У <strong>PC World</strong> ми прагнемо надавати найкращі комп'ютери
+          для будь-яких потреб. Незалежно від того, чи ви геймер, професіонал
+          або просто шукаєте надійний ПК, ми маємо те, що вам потрібно.
+        </p>
+        <p>
+          Наша місія — забезпечити передові технології з винятковим
+          обслуговуванням клієнтів. Ми віримо в те, щоб надавати нашим
+          клієнтам інструменти, необхідні для успіху в особистому та
+          професійному житті.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="../IMAGES/img/about img.png" alt="Про PC World" />
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Контакти</h2>
+        <p>
+          <i class="fas fa-envelope"></i> Електронна пошта:
+          <a href="mailto:support@pcworld.com">support@pcworld.com</a>
+        </p>
+        <p>
+          <i class="fas fa-phone"></i> Телефон:
+          <a href="tel:+1234567890">+1 234 567 890</a>
+        </p>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> Адреса: 123 Tech Street,
+          Silicon Valley, CA
+        </p>
+      </div>
+      <div class="contact-form">
+        <h3>Зв'язатися з нами</h3>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Ваше ім'я" required />
+          <input type="email" name="email" placeholder="Ваш email" required />
+          <textarea name="message" placeholder="Ваше повідомлення" rows="5" required></textarea>
+          <button type="submit">Надіслати повідомлення</p>
         </form>
-        <button id="close-order-modal">✖</button>
       </div>
     </div>
-    <div id="success-modal" class="modal hidden">
-      <div class="modal-content">
-        <h2>Замовлення успішно оформлено!</h2>
-        <button id="close-success-modal">OK</button>
-      </div>
-    </div>
-    <section id="about">
-      <div class="about-container">
-        <div class="about-text">
-          <h2>Про нас</h2>
-          <p>
-            У <strong>PC World</strong> ми прагнемо надавати найкращі комп'ютери
-            для будь-яких потреб. Незалежно від того, чи ви геймер, професіонал
-            або просто шукаєте надійний ПК, ми маємо те, що вам потрібно.
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Про PC World</h3>
+        <p>
+          PC World — ваш надійний партнер у світі високоякісних комп'ютерів та
+          аксесуарів. Ми прагнемо надавати найкращі технологічні рішення для
+          всіх ваших потреб.
         </p>
-          <p>
-            Наша місія — забезпечити передові технології з винятковим
-            обслуговуванням клієнтів. Ми віримо в те, щоб надавати нашим
-            клієнтам інструменти, необхідні для успіху в особистому та
-            професійному житті.
-          </p>
-        </div>
-        <div class="about-image">
-          <img src="../IMAGES/img/about img.png" alt="Про PC World" />
-        </div>
       </div>
-    </section>
-
-    <section id="contact">
-      <div class="contact-container">
-        <div class="contact-info">
-          <h2>Контакти</h2>
-          <p>
-            <i class="fas fa-envelope"></i> Електронна пошта:
-            <a href="mailto:support@pcworld.com">support@pcworld.com</a>
-        </p>
-          <p>
-            <i class="fas fa-phone"></i> Телефон:
-            <a href="tel:+1234567890">+1 234 567 890</a>
-          </p>
-          <p>
-            <i class="fas fa-map-marker-alt"></i> Адреса: 123 Tech Street,
-            Silicon Valley, CA
-          </p>
-        </div>
-        <div class="contact-form">
-          <h3>Зв'язатися з нами</h3>
-          <form action="#" method="post">
-            <input type="text" name="name" placeholder="Ваше ім'я" required />
-            <input type="email" name="email" placeholder="Ваш email" required />
-            <textarea
-              name="message"
-              placeholder="Ваше повідомлення"
-              rows="5"
-              required
-            ></textarea>
-            <button type="submit">Надіслати повідомлення</p>
-          </form>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="footer-container">
-        <div class="footer-about">
-          <h3>Про PC World</h3>
-          <p>
-            PC World — ваш надійний партнер у світі високоякісних комп'ютерів та
-            аксесуарів. Ми прагнемо надавати найкращі технологічні рішення для
-            всіх ваших потреб.
-        </p>
-        </div>
-        <div class="footer-nav">
-          <h3>Швидкі посилання</h3>
-          <ul>
-            <li><a href="#products">Продукти</a></li>
-            <li><a href="#about">Про нас</a></li>
-            <li><a href="#contact">Контакти</a></li>
-            <li><a href="./FAQ.html">FAQ</a></li>
+      <div class="footer-nav">
+        <h3>Швидкі посилання</h3>
+        <ul>
+          <li><a href="#products">Продукти</a></li>
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#contact">Контакти</a></li>
+          <li><a href="./FAQ.html">FAQ</a></li>
           </ул>
-        </div>
-        <div class="footer-contact">
-          <h3>Контакти</h3>
-          <p><i class="fas fa-phone"></i> +1 234 567 890</p>
-          <p>
-            <i class="fas fa-envelope"></i>
-            <a href="mailto:support@pcworld.com">support@pcworld.com</a>
-        </p>
-          <p>
-            <i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon
-            Valley, CA
-        </p>
-        </div>
-        <div class="footer-map">
-          <h3>Наше розташування</h3>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.08424968468132!3d37.42199997982571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5e5d5b5b5b5%3A0x5b5b5b5b5b5b5b5b!2sGoogleplex!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus"
-            width="100%"
-            height="150"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 PC World. Усі права захищено.</p>
+      <div class="footer-contact">
+        <h3>Контакти</h3>
+        <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+        <p>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:support@pcworld.com">support@pcworld.com</a>
+        </p>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon
+          Valley, CA
+        </p>
       </div>
-    </footer>
-    <script src="../JS/infocard.js"></script>
-    <script src="../JS/cart.js"></script>
-  </body>
+      <div class="footer-map">
+        <h3>Наше розташування</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.08424968468132!3d37.42199997982571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5e5d5b5b5b5%3A0x5b5b5b5b5b5b5b5b!2sGoogleplex!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus"
+          width="100%" height="150" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 PC World. Усі права захищено.</p>
+    </div>
+  </footer>
+  <script src="../JS/infocard.js"></script>
+  <script src="../JS/cart.js"></script>
+</body>
+
 </html>
