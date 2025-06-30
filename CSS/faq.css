@@ -1,0 +1,113 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #c7e9f1, #f9f9f9);
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2e3a59;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input {
+  background: #f0f0f0;
+}
+
+button {
+  background-color: #007acc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005f9e;
+}
+
+.answer {
+  margin-top: 25px;
+  padding: 20px;
+  background: #e3f2fd;
+  border-left: 5px solid #42a5f5;
+  border-radius: 10px;
+  white-space: pre-line;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  input,
+  button {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .answer {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input,
+  button {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .answer {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+}
